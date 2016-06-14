@@ -7,7 +7,7 @@ Object: API rest for find palindromes count between integer parameters x and y, 
 
 Complexity algorithm: O(n) 
 
-Install: copy target/bunny_test_V_1.0.war into webapps tomcat folder
+Install: copy target/bunny_test.war into webapps tomcat folder
 
 Use: call bunny_test/rest/findPalindrome/initNumber/lastNumber
 
