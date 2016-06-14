@@ -29,6 +29,10 @@ public class PalindromeUtils {
 		
 		int cont = 0;
 		int cicles = 0;
+		
+		if (x<0) {x=0;}
+		if (y>2147483647) {y=2147483647;}
+		
 		for(int i=x;i<=y;i++){
 			StringBuilder sb = new StringBuilder();
 			sb.append(i);
