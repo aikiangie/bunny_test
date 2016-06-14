@@ -10,10 +10,10 @@ API rest for find palindromes count between integer parameters x and y, includin
 Linear Algorithm: O(n) 
 
 ### Install
-Copy target/bunny_test.war into webapps tomcat folder
+Copy [target/bunny_test.war] into webapps tomcat folder
 
 ### How to Use 
-Call bunny_test/rest/findPalindrome/initNumber/finalNumber in your browser, replacing initNumber and finalNumber for your required values
+Call [bunny_test/rest/findPalindrome/initNumber/finalNumber] in your browser, replacing initNumber and finalNumber for your required values
 
 ### Return
 json array as follow {"palindromeCount":,"cyclesPerformed":}
